@@ -1,4 +1,4 @@
-# @webship/workspace-ai-prompts
+# @webship.co/workspace-ai-prompts
 
 The **AI Prompts** workspace of the [Webship Workspace](https://github.com/webship/workspace) dashboard:
 the `ai-prompts/` folder (type `ai-items`), its settings file (`core/config/workspace.ai-prompts.settings.yml`),
