@@ -20,6 +20,7 @@ The settings file and the docs are placed once and never overwritten: they hold 
 
 | Command |
 | --- |
-| (none) |
+| `cmd-tool-backup-prompt.sh` |
+| `cmd-tools-ai-items.sh` |
 
 The bash functions these commands call live in the dashboard's `core/scripts/functions`.

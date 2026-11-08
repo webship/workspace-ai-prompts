@@ -1,7 +1,7 @@
 {
   "name": "@webship.co/workspace-ai-prompts",
   "version": "1.0.0-alpha1",
-  "description": "The AI Prompts workspace for Webship Workspace: the `ai-prompts/` folder (type ai-items), its settings file, its 0 commands and its docs, activated as a plugin.",
+  "description": "The AI Prompts workspace for Webship Workspace: the `ai-prompts/` folder (type ai-items), its settings file, its 2 commands and its docs, activated as a plugin.",
   "main": "dist/src/index.js",
   "types": "dist/src/index.d.ts",
   "license": "ISC",
@@ -29,7 +29,10 @@
     "workspace": {
       "key": "ai-prompts",
       "settingsTemplate": "config/workspace.ai-prompts.settings.yml",
-      "files": [],
+      "files": [
+        "commands/cmd-tool-backup-prompt.sh",
+        "commands/cmd-tools-ai-items.sh"
+      ],
       "docs": [
         "docs/AGENTS.md",
         "docs/CLAUDE.md",
