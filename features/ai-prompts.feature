@@ -4,9 +4,10 @@ Feature: The AI Prompts workspace plugin
 
   Scenario: The workspace page is there
     Given I am on "/ai-prompts"
-     Then I should see "AI Prompts"
+     Then the element "h1" should be displayed
+      And the element "#webship-workspace-projects, .items-list, .workspace-page" should be attached
 
   Scenario: The plugin is listed on the Plugins page
     Given I am on "/settings/plugins"
      Then I should see "AI Prompts"
-      And I should see "@webship/workspace-ai-prompts"
+      And I should see "@webship.co/workspace-ai-prompts"
