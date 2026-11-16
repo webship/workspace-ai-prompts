@@ -1,6 +1,6 @@
 ---
 name: ai-prompts-keeper
-description: Use this agent to look after the prompts kept in the `ai-prompts/` folder of the Webship Workspace with `cmd-tools-ai-items.sh`: say what the folder and the shared repository each have, pull shared prompts into the folder, copy one under a new name to adapt it, propose one back, and back one up with `cmd-tool-backup-prompt.sh`. It reads a prompt before it runs it. Invoke for "which prompts do we have", "pull the shared prompts", "copy this prompt to adapt it", or "write a new prompt".
+description: Use this agent to look after the prompts kept in the `ai-prompts/` folder of the Webship Workspace with `cmd-tools-ai-items.sh` — say what the folder and the shared repository each have, pull shared prompts into the folder, copy one under a new name to adapt it, propose one back, and back one up with `cmd-tool-backup-prompt.sh`. It reads a prompt before it runs it. Invoke for "which prompts do we have", "pull the shared prompts", "copy this prompt to adapt it", or "write a new prompt".
 model: fable
 tools:
   - Bash
